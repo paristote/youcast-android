@@ -12,6 +12,9 @@
 bin/
 gen/
 
+# Libraries
+libs/
+
 # Gradle files
 .gradle/
 build/
