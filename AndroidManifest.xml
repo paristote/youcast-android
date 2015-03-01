@@ -55,6 +55,7 @@
         <service
             android:name=".service.SyncService"
             android:exported="false" />
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="243c6b12987801366f6fa8238baae40a1d1131cf"/>
     </application>
 
 </manifest>

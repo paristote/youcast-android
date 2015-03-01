@@ -11,8 +11,8 @@ public class App extends Application {
 	public static  String YOUCAST_SERVER_URL = PROD_SERVER_URL;
 	
 	
-//	public static int SYNC_FREQUENCY = 60; // 60 seconds
-	public static int SYNC_FREQUENCY = 300; // 300 sec = 5 min
+	public static int SYNC_FREQUENCY = 60; // 60 seconds
+//	public static int SYNC_FREQUENCY = 300; // 300 sec = 5 min
 	
 	public App() {
 	}
