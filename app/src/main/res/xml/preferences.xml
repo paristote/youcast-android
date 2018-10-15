@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <CheckBoxPreference 
+        android:title="Enable Sync" 
+        android:key="pref_sync_enabled" 
+        android:summary="@string/desc_pref_sync" 
+        android:defaultValue="true" />
+    
+    <CheckBoxPreference 
+        android:title="Enable HD" 
+        android:key="pref_hd_enabled" 
+        android:summary="@string/desc_pref_hd_enabled" 
+        android:defaultValue="false" />
+    
+    <EditTextPreference 
+        android:title="Maximum number of retries" 
+        android:key="pref_max_retries" 
+        android:summary="@string/desc_pref_max_retries" 
+        android:defaultValue="5" />
+    
+    <CheckBoxPreference 
+        android:title="Start download automatically" 
+        android:key="pref_start_download_auto" 
+        android:summary="@string/desc_pref_auto_dl"
+        android:defaultValue="true" />
+    
+    
+</PreferenceScreen>

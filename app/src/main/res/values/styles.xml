@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="LargeButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:background">@drawable/button_states</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">12pt</item>
+    </style>
+    
+    <style name="LargeAllCapsButton" parent="@style/LargeButton">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    
+    <style name="SignInEditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:background">@color/LightGrey</item>
+        <item name="android:textColorHint">@color/Grey</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16pt</item>
+    </style>
+    
+    <style name="MediumAllCapsRedText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    
+    <style name="LargeAllCapsRedText" parent="@style/MediumAllCapsRedText">
+        <item name="android:textSize">16pt</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    
+    <color name="Red">#F00</color>
+    <color name="Grey">#999</color>
+    <color name="LightGrey">#DDD</color>
+
+</resources>
