@@ -1,7 +1,7 @@
 package com.philipoy.youtubedl;
 
-import com.crashlytics.android.Crashlytics;
-import io.fabric.sdk.android.Fabric;
+//import com.crashlytics.android.Crashlytics;
+//import io.fabric.sdk.android.Fabric;
 import retrofit.RetrofitError;
 import android.app.Activity;
 import android.content.Intent;
@@ -39,7 +39,7 @@ public class LaunchActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Fabric.with(this, new Crashlytics());
+//		Fabric.with(this, new Crashlytics());
 		setContentView(R.layout.activity_launch);
 		
 		signinArea = (LinearLayout)findViewById(R.id.signin_container);
