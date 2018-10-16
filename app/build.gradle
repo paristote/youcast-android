@@ -17,3 +17,11 @@ android {
         }
     }
 }
+
+dependencies {
+    implementation 'com.squareup.okhttp:okhttp:2.3.0'
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.3.0'
+    implementation 'com.squareup.retrofit:retrofit:1.6.0'
+    implementation project(":volley")
+
+}
